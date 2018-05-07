@@ -1,0 +1,70 @@
+h1 {
+  text-align: center;
+}
+
+nav {
+  height: 50px;
+  background-color: blue;
+  margin: auto;
+}
+
+header {
+  background-image: url("../../images/park.jpg");
+  background-repeat: round;
+}
+
+nav ul{
+  text-align: right;
+}
+
+nav li {
+  list-style: none;
+  float: right;
+  color: white;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article .dog{
+  max-width: 50%;
+}
+
+
+article > div {
+  margin: auto;
+  width: 30%;
+}
+
+article > div > p {
+  text-align: center;
+}
+
+.dog-button{
+  text-align: center;
+  border: 2px solid blue;
+  background-color: White;
+  padding: 15px;
+  min-width:100px;
+  display: inline-block"
+}
+
+
+.dog {
+  border: 2px solid blue;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dog-icon {
+  float: left;
+  width: 40px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
